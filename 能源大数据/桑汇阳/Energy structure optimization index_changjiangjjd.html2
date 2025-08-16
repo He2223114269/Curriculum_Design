@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="929bb15fda1b4a30b58ee3a38900cb63" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_929bb15fda1b4a30b58ee3a38900cb63 = echarts.init(
+            document.getElementById('929bb15fda1b4a30b58ee3a38900cb63'), 'white', {renderer: 'canvas'});
+        var option_929bb15fda1b4a30b58ee3a38900cb63 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u4e0a\u6e38\u5730\u533a",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    2010,
+                    0.43953783678796954
+                ],
+                [
+                    2011,
+                    0.47557889699719147
+                ],
+                [
+                    2012,
+                    0.5139578170392167
+                ],
+                [
+                    2013,
+                    0.5698134856164919
+                ],
+                [
+                    2014,
+                    0.6268252944800324
+                ],
+                [
+                    2015,
+                    0.704211309989758
+                ],
+                [
+                    2016,
+                    0.74540074582243
+                ],
+                [
+                    2017,
+                    0.7988951890837329
+                ],
+                [
+                    2018,
+                    0.8688911829825319
+                ],
+                [
+                    2019,
+                    0.9160304408605708
+                ],
+                [
+                    2020,
+                    0.9480852899718241
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u4e2d\u6e38\u5730\u533a",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    2010,
+                    0.32977875644092336
+                ],
+                [
+                    2011,
+                    0.36275229485113397
+                ],
+                [
+                    2012,
+                    0.394767267485847
+                ],
+                [
+                    2013,
+                    0.439972673295975
+                ],
+                [
+                    2014,
+                    0.465961160698327
+                ],
+                [
+                    2015,
+                    0.497353966088207
+                ],
+                [
+                    2016,
+                    0.535651886315837
+                ],
+                [
+                    2017,
+                    0.569509494118548
+                ],
+                [
+                    2018,
+                    0.6175446602382639
+                ],
+                [
+                    2019,
+                    0.644422213015414
+                ],
+                [
+                    2020,
+                    0.672946750723151
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u4e0b\u6e38\u5730\u533a",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    2010,
+                    0.723772886586561
+                ],
+                [
+                    2011,
+                    0.747371981100594
+                ],
+                [
+                    2012,
+                    0.773405502887732
+                ],
+                [
+                    2013,
+                    0.806103134959361
+                ],
+                [
+                    2014,
+                    0.83252567589161
+                ],
+                [
+                    2015,
+                    0.858629964900748
+                ],
+                [
+                    2016,
+                    0.8891427374535601
+                ],
+                [
+                    2017,
+                    0.9251738823812881
+                ],
+                [
+                    2018,
+                    0.96806951261643
+                ],
+                [
+                    2019,
+                    0.988545962685458
+                ],
+                [
+                    2020,
+                    1.005431589063103
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4e0a\u6e38\u5730\u533a",
+                "\u4e2d\u6e38\u5730\u533a",
+                "\u4e0b\u6e38\u5730\u533a"
+            ],
+            "selected": {},
+            "show": true,
+            "top": "40",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "name": "Year",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "min": 2010,
+            "max": 2020,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": null
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "name": "Energy structure optimization index",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "Energy structure optimization index Over Time",
+            "target": "blank",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "top",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_929bb15fda1b4a30b58ee3a38900cb63.setOption(option_929bb15fda1b4a30b58ee3a38900cb63);
+    </script>
+</body>
+</html>

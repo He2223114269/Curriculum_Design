@@ -1,0 +1,27 @@
+# 典型大文件/中间产物（按需保留或删减）
+data/
+datasets/
+outputs/
+checkpoints/
+*.pt
+*.ckpt
+*.onnx
+*.zip
+*.tar
+*.7z
+*.pdf
+*.mp4
+*.png
+*.jpg
+*.pdf
+
+# 开发环境/缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+.idea/
+.DS_Store
+palm.pdopt
+palm.pdparams
