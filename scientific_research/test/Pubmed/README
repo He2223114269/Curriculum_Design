@@ -1,0 +1,8 @@
+The Pubmed dataset consists of 19717 scientific publications from PubMed database pertaining to diabetes classified into one of three classes ("Diabetes Mellitus, Experimental", "Diabetes Mellitus Type 1", "Diabetes Mellitus Type 2"). The citation network consists of 44338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words.
+
+The files consists of tab delimited files where the first line describes the contents of the files and the second line describes the names and types of the attributes.
+
+Pubmed数据集由来自PubMed数据库的19717篇科学出版物组成，这些出版物涉及糖尿病，分为三类（“糖尿病，实验”，“1型糖尿病”，“2型糖尿病”）。
+引文网络由44338个链接组成。数据集中的每个出版物都由字典中的 TF/IDF 加权词向量描述，该词典由 500 个唯一单词组成。
+
+这些文件由制表符分隔的文件组成，其中第一行描述文件的内容，第二行描述属性的名称和类型。
